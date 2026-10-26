@@ -161,37 +161,6 @@ Each resolver group carries the `admin` role, so every member can work the cases
 | ACL (scripted) | Closed / Cancelled update lock | Blocks user updates on closed cases |
 | Groups | Six Resolvers Groups | Fulfilment teams, each holding the `admin` role |
 
-## Roadmap
-
-**Phase 1**
-
-- [x] Scoped application and branding
-- [x] Roles and role-based module access
-- [x] HR Case table with auto-numbering
-- [x] Fields, cascading choices and form behaviour
-- [x] Role-based form and list views
-- [x] Resolver groups
-- [x] Assignment rules
-- [x] ACLs and security
-- [ ] Data import with transform map
-- [ ] Knowledge bases and articles
-- [ ] Service Catalog record producer
-- [ ] Dashboard and reports
-- [ ] Closed / Cancelled notification
-- [ ] Promotion to a UAT instance
-
-**Planned for Phase 2:** SLA and escalation, approvals, Service Portal intake, integrations, ATF, Flow Designer.
-
-## Repository
-
-This repository holds the application source exported from ServiceNow Studio.
-Changes are first captured in update sets on the development instance and committed here.
-
-## Author
-
-Built as a ServiceNow real-time project assignment by **Your Name**.
-
----
 
 <div align="center">
 <sub>Built on ServiceNow · Scoped · Role-based · No HRSD required</sub>
