@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view">
+    <sysrule_view action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <condition/>
+        <description/>
+        <device_type>browser</device_type>
+        <match_conditions>ALL</match_conditions>
+        <name>R Case - Create view for users</name>
+        <order>100</order>
+        <overrides_user_preference>true</overrides_user_preference>
+        <script><![CDATA[(function overrideView(view, is_list) {
+
+	// Users get the 'create' view; admins are left on the Default view
+	if (gs.hasRole('x_2273364_hr_cas_0.user') && !gs.hasRole('x_2273364_hr_cas_0.admin')) {
+		answer = 'create';  // 'Name' value from sys_ui_view
+	}
+
+})(view, is_list);]]></script>
+        <sys_class_name>sysrule_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-25 13:30:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5d38d0db83801f10a6d4fecfeeaad327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>R Case - Create view for users</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Case Management" source="x_2273364_hr_cas_0">1661897983081310a6d4fecfeeaad36d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">1661897983081310a6d4fecfeeaad36d</sys_scope>
+        <sys_update_name>sysrule_view_5d38d0db83801f10a6d4fecfeeaad327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-25 13:30:28</sys_updated_on>
+        <table>x_2273364_hr_cas_0_hr_case</table>
+        <view/>
+    </sysrule_view>
+</record_update>

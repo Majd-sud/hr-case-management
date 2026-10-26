@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bbb541f183481310a6d4fecfeeaad3ac" extends="task" label="HR Case" max_length="40" name="x_2273364_hr_cas_0_hr_case" type="collection">
+        <element default="javascript:gs.getUserID()" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Caller" max_length="32" name="caller" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element choice="1" label="Category" mandatory="true" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Payroll" sequence="300" value="payroll"/>
+                <element inactive_on_update="false" label="Incident" sequence="700" value="incident"/>
+                <element inactive_on_update="false" label="Leave" sequence="400" value="leave"/>
+                <element inactive_on_update="false" label="Others" sequence="600" value="others"/>
+                <element inactive_on_update="false" label="Offboarding" sequence="200" value="offboarding"/>
+                <element inactive_on_update="false" label="Travel" sequence="500" value="travel"/>
+                <element inactive_on_update="false" label="Onboarding" sequence="100" value="onboarding"/>
+            </choice>
+        </element>
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element label="Email" max_length="100" name="email" type="string"/>
+        <element choice="1" dependent="category" dependent_on_field="category" label="Subcategory" max_length="40" name="subcategory" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="leave" inactive_on_update="false" label="Maternity Leave" sequence="300" value="maternity_leave"/>
+                <element dependent_value="leave" inactive_on_update="false" label="Leave Adjustment" sequence="100" value="leave_adjustment"/>
+                <element dependent_value="travel" inactive_on_update="false" label="Relocation" sequence="300" value="relocation"/>
+                <element dependent_value="offboarding" inactive_on_update="false" label="Submit ID" sequence="100" value="submit_id"/>
+                <element dependent_value="others" inactive_on_update="false" label="Others" sequence="100" value="others"/>
+                <element dependent_value="payroll" inactive_on_update="false" label="Payroll Issue" sequence="200" value="payroll_issue"/>
+                <element dependent_value="onboarding" inactive_on_update="false" label="Desktop" sequence="300" value="desktop"/>
+                <element dependent_value="offboarding" inactive_on_update="false" label="Revoke Access" sequence="400" value="revoke_access"/>
+                <element dependent_value="leave" inactive_on_update="false" label="Paternity Leave" sequence="400" value="paternity_leave"/>
+                <element dependent_value="travel" inactive_on_update="false" label="Offshore" sequence="200" value="offshore"/>
+                <element dependent_value="travel" inactive_on_update="false" label="Onsite" sequence="100" value="onsite"/>
+                <element dependent_value="onboarding" inactive_on_update="false" label="ODC Access" sequence="400" value="odc_access"/>
+                <element dependent_value="payroll" inactive_on_update="false" label="Payroll Query" sequence="100" value="payroll_query"/>
+                <element dependent_value="onboarding" inactive_on_update="false" label="Laptop" sequence="100" value="laptop"/>
+                <element dependent_value="leave" inactive_on_update="false" label="Leave Query" sequence="200" value="leave_query"/>
+                <element dependent_value="travel" inactive_on_update="false" label="Holiday" sequence="400" value="holiday"/>
+                <element dependent_value="offboarding" inactive_on_update="false" label="Laptop" sequence="200" value="laptop"/>
+                <element dependent_value="onboarding" inactive_on_update="false" label="Mobile" sequence="200" value="mobile"/>
+                <element dependent_value="offboarding" inactive_on_update="false" label="Desktop" sequence="300" value="desktop"/>
+            </choice>
+        </element>
+    </element>
+</database>

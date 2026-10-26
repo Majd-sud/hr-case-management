@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_2273364_hr_cas_0_hr_case" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-22 10:38:11</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="HR Case Management" source="x_2273364_hr_cas_0">1661897983081310a6d4fecfeeaad36d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HR Case Management">1661897983081310a6d4fecfeeaad36d</sys_scope>
+            <sys_update_name>sys_choice_x_2273364_hr_cas_0_hr_case_category</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-22 10:38:11</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Onboarding</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-22 10:37:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-22 10:51:22</sys_updated_on>
+            <value>onboarding</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Offboarding</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-22 10:38:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-22 10:38:11</sys_updated_on>
+            <value>offboarding</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Payroll</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-22 10:38:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-22 10:51:42</sys_updated_on>
+            <value>payroll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leave</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-22 10:44:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-22 10:44:04</sys_updated_on>
+            <value>leave</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Travel</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-22 10:46:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-22 10:46:56</sys_updated_on>
+            <value>travel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Others</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-22 10:47:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-22 10:47:39</sys_updated_on>
+            <value>others</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Incident</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>700</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-22 10:48:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-22 10:48:21</sys_updated_on>
+            <value>incident</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-22 04:46:10</sys_created_on>
+        <sys_id>bb53c34a8308d310a6d4fecfeeaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2273364_hr_cas_0_hr_case.x_2273364_hr_cas_0.admin</sys_name>
+        <sys_package display_value="HR Case Management" source="x_2273364_hr_cas_0">1661897983081310a6d4fecfeeaad36d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">1661897983081310a6d4fecfeeaad36d</sys_scope>
+        <sys_security_acl display_value="x_2273364_hr_cas_0_hr_case">4d278d7583481310a6d4fecfeeaad342</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_bb53c34a8308d310a6d4fecfeeaad3c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-22 04:46:10</sys_updated_on>
+        <sys_user_role display_value="x_2273364_hr_cas_0.admin" name="x_2273364_hr_cas_0.admin">9a61897983081310a6d4fecfeeaad3b0</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

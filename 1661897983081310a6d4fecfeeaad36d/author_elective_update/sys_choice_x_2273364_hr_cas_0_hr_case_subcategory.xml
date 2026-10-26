@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="subcategory" table="x_2273364_hr_cas_0_hr_case" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>subcategory</element>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:34:42</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>subcategory</sys_name>
+            <sys_package display_value="HR Case Management" source="x_2273364_hr_cas_0">1661897983081310a6d4fecfeeaad36d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HR Case Management">1661897983081310a6d4fecfeeaad36d</sys_scope>
+            <sys_update_name>sys_choice_x_2273364_hr_cas_0_hr_case_subcategory</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:34:42</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>onboarding</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laptop</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:34:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:34:49</sys_updated_on>
+            <value>laptop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>leave</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leave Adjustment</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:41:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:41:24</sys_updated_on>
+            <value>leave_adjustment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>travel</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Onsite</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:42:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:42:33</sys_updated_on>
+            <value>onsite</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>others</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Others</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:43:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:43:34</sys_updated_on>
+            <value>others</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Payroll Query</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:40:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:40:48</sys_updated_on>
+            <value>payroll_query</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>offboarding</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Submit ID</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:39:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:39:33</sys_updated_on>
+            <value>submit_id</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>offboarding</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laptop</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:39:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:39:49</sys_updated_on>
+            <value>laptop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>leave</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leave Query</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:41:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:41:40</sys_updated_on>
+            <value>leave_query</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>onboarding</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mobile</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:35:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:35:10</sys_updated_on>
+            <value>mobile</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>travel</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Offshore</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:42:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:42:45</sys_updated_on>
+            <value>offshore</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>payroll</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Payroll Issue</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:41:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:41:04</sys_updated_on>
+            <value>payroll_issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>onboarding</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Desktop</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:35:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:35:27</sys_updated_on>
+            <value>desktop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>offboarding</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Desktop</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:40:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:40:06</sys_updated_on>
+            <value>desktop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>leave</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maternity Leave</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:41:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:41:52</sys_updated_on>
+            <value>maternity_leave</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>travel</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Relocation</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:42:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:42:58</sys_updated_on>
+            <value>relocation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>travel</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Holiday</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:43:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:43:13</sys_updated_on>
+            <value>holiday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>onboarding</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ODC Access</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:35:41</sys_updated_on>
+            <value>odc_access</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>leave</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Paternity Leave</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:42:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:42:13</sys_updated_on>
+            <value>paternity_leave</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>offboarding</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Revoke Access</label>
+            <language>en</language>
+            <name>x_2273364_hr_cas_0_hr_case</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-25 12:40:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-25 12:40:22</sys_updated_on>
+            <value>revoke_access</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

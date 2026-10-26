@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>caller</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>HR Case - Populate Department and Email</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    // On load of a saved record, keep the stored values
+    if (isLoading && !g_form.isNewRecord()) {
+        return;
+    }
+    if (newValue === '') {
+        g_form.clearValue('department');
+        g_form.clearValue('email');
+        return;
+    }
+    // Copy department and email from the selected caller
+    g_form.getReference('caller', function (caller) {
+        g_form.setValue('department', caller.department);
+        g_form.setValue('email', caller.email);
+    });
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-25 13:08:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3853105383801f10a6d4fecfeeaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Case - Populate Department and Email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HR Case Management" source="x_2273364_hr_cas_0">1661897983081310a6d4fecfeeaad36d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">1661897983081310a6d4fecfeeaad36d</sys_scope>
+        <sys_update_name>sys_script_client_3853105383801f10a6d4fecfeeaad3a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-25 13:08:54</sys_updated_on>
+        <table>x_2273364_hr_cas_0_hr_case</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
