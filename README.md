@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="assets/hr_case_logo.png" alt="HR Case Management" width="420"/>
 
 # HR Case Management
 
