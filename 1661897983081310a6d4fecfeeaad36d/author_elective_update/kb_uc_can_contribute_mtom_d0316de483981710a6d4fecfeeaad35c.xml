@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_contribute_mtom">
+    <kb_uc_can_contribute_mtom action="DELETE">
+        <kb_knowledge_base display_value="HR Case Resolver">d601e5e483981710a6d4fecfeeaad305</kb_knowledge_base>
+        <sys_class_name>kb_uc_can_contribute_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-29 16:00:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d0316de483981710a6d4fecfeeaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Case Resolver.Has atleast one role apart from snc_internal KB</sys_name>
+        <sys_package display_value="HR Case Management" source="x_2273364_hr_cas_0">1661897983081310a6d4fecfeeaad36d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">1661897983081310a6d4fecfeeaad36d</sys_scope>
+        <sys_update_name>kb_uc_can_contribute_mtom_d0316de483981710a6d4fecfeeaad35c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-29 16:00:45</sys_updated_on>
+        <user_criteria display_value="Has atleast one role apart from snc_internal KB">f9397919f79d52507787d3e543bfd6cd</user_criteria>
+    </kb_uc_can_contribute_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HR Case Management">1661897983081310a6d4fecfeeaad36d</application>
+        <file_path/>
+        <instance_id>8c7a223747ea4bd021f3e676706d4365</instance_id>
+        <instance_name>dev444791</instance_name>
+        <name>kb_uc_can_contribute_mtom_d0316de483981710a6d4fecfeeaad35c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_contribute_mtom"><kb_uc_can_contribute_mtom action="INSERT_OR_UPDATE"><kb_knowledge_base display_value="HR Case Resolver">d601e5e483981710a6d4fecfeeaad305</kb_knowledge_base><sys_class_name>kb_uc_can_contribute_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-29 16:00:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d0316de483981710a6d4fecfeeaad35c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR Case Resolver.Has atleast one role apart from snc_internal KB</sys_name><sys_package display_value="HR Case Management" source="x_2273364_hr_cas_0">1661897983081310a6d4fecfeeaad36d</sys_package><sys_policy/><sys_scope display_value="HR Case Management">1661897983081310a6d4fecfeeaad36d</sys_scope><sys_update_name>kb_uc_can_contribute_mtom_d0316de483981710a6d4fecfeeaad35c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-29 16:00:45</sys_updated_on><user_criteria display_value="Has atleast one role apart from snc_internal KB">f9397919f79d52507787d3e543bfd6cd</user_criteria></kb_uc_can_contribute_mtom></record_update>]]></payload>
+        <payload_hash>-579980872</payload_hash>
+        <record_name>HR Case Resolver.Has atleast one role apart from snc_internal KB</record_name>
+        <reverted_from/>
+        <source>c59b6f5f830c5f10a6d4fecfeeaad380</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-29 16:00:45</sys_created_on>
+        <sys_id>10316de483981710a6d4fecfeeaad360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a188646c710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-29 16:00:45</sys_updated_on>
+        <type>Who Can Contribute To Knowledge Base</type>
+        <update_guid>dc316de4449817108e5bd6e1e9c68a5e</update_guid>
+        <update_guid_history>dc316de4449817108e5bd6e1e9c68a5e:-579980872</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="HR Case Resolver.Has atleast one role apart from snc_internal KB">5641212883981710a6d4fecfeeaad3d9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-29 16:01:09</sys_created_on>
+        <sys_db_object display_value="" name="kb_uc_can_contribute_mtom">kb_uc_can_contribute_mtom</sys_db_object>
+        <sys_id>a60737493654424085caac2a2455a400</sys_id>
+        <sys_metadata>d0316de483981710a6d4fecfeeaad35c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Case Resolver.Has atleast one role apart from snc_internal KB</sys_name>
+        <sys_package display_value="HR Case Management" source="x_2273364_hr_cas_0">1661897983081310a6d4fecfeeaad36d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">1661897983081310a6d4fecfeeaad36d</sys_scope>
+        <sys_scope_delete display_value="">124a570ca9e1450f810f533d022af431</sys_scope_delete>
+        <sys_update_name>kb_uc_can_contribute_mtom_d0316de483981710a6d4fecfeeaad35c</sys_update_name>
+        <sys_update_version display_value="kb_uc_can_contribute_mtom_d0316de483981710a6d4fecfeeaad35c">10316de483981710a6d4fecfeeaad360</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-29 16:01:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

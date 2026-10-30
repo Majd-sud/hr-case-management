@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <access_method>btree</access_method>
+        <col_name_string>short_description</col_name_string>
+        <index_col_name element="short_description" name="task">b44e9d04a56103108bb220b7a4d21280</index_col_name>
+        <logical_table_name>x_2273364_hr_cas_0_hr_case</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-10-29 13:38:06</sys_created_on>
+        <sys_id>7a80056483941710a6d4fecfeeaad3d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_2273364_hr_cas_0_hr_case</sys_name>
+        <sys_package display_value="HR Case Management" source="x_2273364_hr_cas_0">1661897983081310a6d4fecfeeaad36d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HR Case Management">1661897983081310a6d4fecfeeaad36d</sys_scope>
+        <sys_update_name>sys_index_x_2273364_hr_cas_0_hr_case_short_description</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-10-29 13:38:06</sys_updated_on>
+        <table display_value="HR Case" name="x_2273364_hr_cas_0_hr_case">bbb541f183481310a6d4fecfeeaad3ac</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>
