@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">3f7d1904a52103108bb220b7a4d2124f</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-29 13:22:34</sys_created_on>
+        <sys_id>93fcb86c83541710a6d4fecfeeaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="HR Case Management" source="x_2273364_hr_cas_0">1661897983081310a6d4fecfeeaad36d</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-29 13:22:34</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
